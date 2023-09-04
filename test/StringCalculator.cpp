@@ -2,6 +2,8 @@
 #include <vector>
 #include <numeric>
 #include <regex>
+#include "gtest/gtest.h"
+
 using namespace std;
 
 class StringCalculator {
