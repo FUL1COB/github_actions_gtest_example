@@ -88,6 +88,7 @@ int StringCalculator::Add(const string &input) {
 
     return accumulate(numbers.begin(), numbers.end(), 0);
 }
+
 TEST(string_calculator_add_When_Passed_A_Single_Number, returns_0_for_empty_string) {
     //Arrange
     StringCalculator objUnderTest;
